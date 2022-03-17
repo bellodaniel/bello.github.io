@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bello.github.io/static/css/main.5e1979b8.css",
+    "main.js": "/bello.github.io/static/js/main.e730f1c0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/bello.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/profile.png": "/bello.github.io/static/media/profile.c6f9bfc53d7c012d3a0e.png",
+    "index.html": "/bello.github.io/index.html",
+    "main.5e1979b8.css.map": "/bello.github.io/static/css/main.5e1979b8.css.map",
+    "main.e730f1c0.js.map": "/bello.github.io/static/js/main.e730f1c0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/bello.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1979b8.css",
+    "static/js/main.e730f1c0.js"
+  ]
+}
