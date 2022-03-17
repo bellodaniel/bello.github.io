@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8e382c0.css",
-    "main.js": "/static/js/main.3ed38501.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/profile.png": "/static/media/profile.c6f9bfc53d7c012d3a0e.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.c8e382c0.css.map": "/static/css/main.c8e382c0.css.map",
-    "main.3ed38501.js.map": "/static/js/main.3ed38501.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/bello.github.io/static/css/main.5e1979b8.css",
+    "main.js": "/bello.github.io/static/js/main.e730f1c0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/bello.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/profile.png": "/bello.github.io/static/media/profile.c6f9bfc53d7c012d3a0e.png",
+    "index.html": "/bello.github.io/index.html",
+    "main.5e1979b8.css.map": "/bello.github.io/static/css/main.5e1979b8.css.map",
+    "main.e730f1c0.js.map": "/bello.github.io/static/js/main.e730f1c0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/bello.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e382c0.css",
-    "static/js/main.3ed38501.js"
+    "static/css/main.5e1979b8.css",
+    "static/js/main.e730f1c0.js"
   ]
 }

@@ -22,7 +22,7 @@ export default function Navbar() {
           </nav>
           <a
             href="#contact"
-            className="inline-flex items-center bg-dark-blue border-0 py-1 px-3 focus:outline-none text-white rounded text-base mt-4 md:mt-0">
+            className="inline-flex items-center bg-dark-blue border-0 py-1 px-3 focus:outline-none color-white rounded text-base mt-4 md:mt-0">
             Hire Me
           </a>
         </div>
