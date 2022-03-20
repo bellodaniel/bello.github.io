@@ -1,29 +1,34 @@
-import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from './components/About';
-import Skills from './pages/Skills';
-import Testimonials from './pages/Testimonials';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import Projects from "./pages/Blogs";
-import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
+import Navigation from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Blog from "./components/blog/Blog";
+import Post from "./components/blog/Post";
+import Post1 from "./components/blog/Post1";
+import Post2 from "./components/blog/Post2";
+import Post3 from "./components/blog/Post3";
+import Skills from "./components/Skills";
 
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="blogs" element={<Projects />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="testimonials" element={<Testimonials />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Router>
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/magento-2-frontend-developer" element={<Post />} />
+      <Route path="/what-is-a-front-end-developer" element={<Post1 />} />
+      <Route path=":postSlug" element={<Post2 />} />
+      <Route path=":postSlug" element={<Post3 />} />
+    </Routes>
+    <Footer />
+  </Router>
   );
 }
