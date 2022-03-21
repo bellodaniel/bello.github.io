@@ -29,7 +29,7 @@ function Home() {
       <div className="bg-gray-200 h-full w-full px-5 pt-6 pb-20">
         <div className="container m-auto max-w-screen-xl">
             <div className="mb-3">
-                <h1 className="text-3xl font-bold">Latest Posts</h1>
+                <h1 className="text-3xl font-bold w-full text-center mb-8 mt-4">Latest Posts</h1>
             </div>
             <div className="mb-5">
                 <a href="/magento-2-frontend-developer" className="block relative rounded-lg relative p-5 transform transition-all duration-300 scale-100 hover:scale-95 bg-cover bg-center bg-no-repeat" 

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bello.github.io/static/css/main.4a064d0d.css",
-    "main.js": "/bello.github.io/static/js/main.ba66eac7.js",
-    "static/media/magento-fe.jpeg": "/bello.github.io/static/media/magento-fe.b155d5026e2e4955fab6.jpeg",
-    "static/media/profile.png": "/bello.github.io/static/media/profile.c6f9bfc53d7c012d3a0e.png",
-    "static/media/fe-dev.jpeg": "/bello.github.io/static/media/fe-dev.b1fc2ec828f8c8e887e7.jpeg",
-    "static/media/magento-development-1.svg": "/bello.github.io/static/media/magento-development-1.91852e08817d31d90af0c4c038cd2e2f.svg",
-    "static/media/Frontend-dev.jpeg": "/bello.github.io/static/media/Frontend-dev.08e47986ad1781a4bad2.jpeg",
-    "index.html": "/bello.github.io/index.html",
-    "main.4a064d0d.css.map": "/bello.github.io/static/css/main.4a064d0d.css.map",
-    "main.ba66eac7.js.map": "/bello.github.io/static/js/main.ba66eac7.js.map"
+    "main.css": "/static/css/main.4a064d0d.css",
+    "main.js": "/static/js/main.9acf03f5.js",
+    "static/media/magento-fe.jpeg": "/static/media/magento-fe.b155d5026e2e4955fab6.jpeg",
+    "static/media/profile.png": "/static/media/profile.c6f9bfc53d7c012d3a0e.png",
+    "static/media/fe-dev.jpeg": "/static/media/fe-dev.b1fc2ec828f8c8e887e7.jpeg",
+    "static/media/magento-development-1.svg": "/static/media/magento-development-1.91852e08817d31d90af0c4c038cd2e2f.svg",
+    "static/media/Frontend-dev.jpeg": "/static/media/Frontend-dev.08e47986ad1781a4bad2.jpeg",
+    "index.html": "/index.html",
+    "main.4a064d0d.css.map": "/static/css/main.4a064d0d.css.map",
+    "main.9acf03f5.js.map": "/static/js/main.9acf03f5.js.map"
   },
   "entrypoints": [
     "static/css/main.4a064d0d.css",
-    "static/js/main.ba66eac7.js"
+    "static/js/main.9acf03f5.js"
   ]
 }
