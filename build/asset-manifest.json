@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b69524b.css",
+    "main.js": "/static/js/main.7a396127.js",
+    "static/media/magento-fe.jpeg": "/static/media/magento-fe.b155d5026e2e4955fab6.jpeg",
+    "static/media/profile.png": "/static/media/profile.c6f9bfc53d7c012d3a0e.png",
+    "static/media/fe-dev.jpeg": "/static/media/fe-dev.b1fc2ec828f8c8e887e7.jpeg",
+    "static/media/magento-development-1.svg": "/static/media/magento-development-1.91852e08817d31d90af0c4c038cd2e2f.svg",
+    "static/media/Frontend-dev.jpeg": "/static/media/Frontend-dev.08e47986ad1781a4bad2.jpeg",
+    "index.html": "/index.html",
+    "main.7b69524b.css.map": "/static/css/main.7b69524b.css.map",
+    "main.7a396127.js.map": "/static/js/main.7a396127.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b69524b.css",
+    "static/js/main.7a396127.js"
+  ]
+}

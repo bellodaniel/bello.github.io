@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  h1 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  article h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply mt-6;
+    @apply mb-2;
+  }
+  article p {
+    @apply mb-2;
+    @apply mt-2;
+  }
+  article a {
+    @apply text-pink;
+    @apply hover:underline;
+  }
+  article ul {
+    @apply list-disc;
+    @apply mt-4;
+    @apply mb-4;
+    @apply ml-4;
+  }
+
+  article ul li {
+    @apply mb-2;
+    @apply mt-2;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

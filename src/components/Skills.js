@@ -5,42 +5,86 @@ import { skills } from "../data/skills";
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
-          </p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            {skills.map((skill, index) => (
-              <a
-                href={skill.link}
-                key={skill.image}
-                className="sm:w-1/2 w-100 p-4" key={index}>
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src={skill.image}
-                  />
-                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                      {skill.subtitle}
-                    </h2>
-                    <h1 className="title-font text-lg font-medium text-white mb-3">
-                      {skill.title}
-                    </h1>
-                    <p className="leading-relaxed">{skill.description}</p>
+    <section class="relative pt-16 bg-blueGray-50">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-center">
+          <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+              <img alt="..." src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" class="w-full align-middle rounded-t-lg" />
+              <blockquote class="relative p-8 mb-4">
+                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block h-95-px -top-94-px">
+                  <polygon points="-30,95 583,95 583,65" class="text-pink-500 fill-current"></polygon>
+                </svg>
+                <h4 class="text-xl font-bold text-white">
+                  Great for your awesome project
+                </h4>
+                <p class="text-md font-light mt-2 text-white">
+                  Putting together a page has never been easier than matching
+                  together pre-made components. From landing pages presentation
+                  to login areas, you can easily customise and built your pages.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="w-full md:w-6/12 px-4">
+            <div class="flex flex-wrap">
+              <div class="w-full md:w-6/12 px-4">
+                <div class="relative flex flex-col mt-4">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">CSS Components</h6>
+                    <p class="mb-4 text-blueGray-500">
+                      Notus JS comes with a huge number of Fully Coded CSS
+                      components.
+                    </p>
                   </div>
                 </div>
-              </a>
-            ))}
+                <div class="relative flex flex-col min-w-0">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">
+                      JavaScript Components
+                    </h6>
+                    <p class="mb-4 text-blueGray-500">
+                      We also feature many dynamic components for React, NextJS,
+                      Vue and Angular.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-6/12 px-4">
+                <div class="relative flex flex-col min-w-0 mt-4">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">Pages</h6>
+                    <p class="mb-4 text-blueGray-500">
+                      This extension also comes with 3 sample pages. They are
+                      fully coded so you can start working instantly.
+                    </p>
+                  </div>
+                </div>
+                <div class="relative flex flex-col min-w-0">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h6 class="text-xl mb-1 font-semibold">Documentation</h6>
+                    <p class="mb-4 text-blueGray-500">
+                      Built by developers for developers. You will love how easy
+                      is to to work with Notus JS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
