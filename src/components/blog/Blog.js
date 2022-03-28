@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import magentoImage from '../../data/magento-development-1.svg';
 import frontendImage from '../../data/Frontend-dev.jpeg';
 
@@ -26,7 +26,7 @@ function Blog() {
               </div>
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 text-center">
-                    <a href="/magento-2-frontend-developer" className="max-w-[370px] mx-auto mb-10 inline-block text-left">
+                    <NavLink to="/magento-2-frontend-developer" className="max-w-[370px] mx-auto mb-10 inline-block text-left">
                       <div className="rounded overflow-hidden mb-8">
                           <img
                             src={magentoImage}
@@ -47,10 +47,10 @@ function Blog() {
                             Being one of the most popular eCommerce platforms, Magento has been the favorite option for eCommerce developers for approximately one decade. However, it is a…
                           </p>
                       </div>
-                    </a>
+                    </NavLink>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4 text-center">
-                    <a href="/what-is-a-front-end-developer" className="max-w-[370px] mx-auto mb-10 inline-block text-left">
+                    <NavLink to="/what-is-a-front-end-developer" className="max-w-[370px] mx-auto mb-10 inline-block text-left">
                       <div className="rounded overflow-hidden mb-8">
                           <img
                             src={frontendImage}
@@ -71,7 +71,7 @@ function Blog() {
                               A front-end developer is responsible for the website architecture and the way the website elements render to the user interface. Front-end development, which is also considered to be the client...
                           </p>
                       </div>
-                    </a>
+                    </NavLink>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                     <div className="max-w-[370px] mx-auto mb-10">
@@ -87,9 +87,9 @@ function Blog() {
                           Jan 05, 2023
                           </span>
                           <h3>
-                          <a href="javascript:void(0)" className="font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4 inline-block text-dark hover:text-primary">
+                          <NavLink to="javascript:void(0)" className="font-semibold text-xl sm:text-2xl lg:text-xl xl:text-2xl mb-4 inline-block text-dark hover:text-primary">
                             The no-fuss guide to upselling and cross selling
-                            </a>
+                            </NavLink>
                           </h3>
                           <p className="text-base text-body-color">
                             Lorem Ipsum is simply dummy text of the printing and
